@@ -41,12 +41,12 @@ part2 = round(characters_number * (20/100))
 result = []
 
 for x in range(part1):
-    result.append(s1[x])
-    result.append(s2[x])
+    result.append(s1[random.randint(0,len(s1)-1])
+    result.append(s2[random.randint(0,len(s2)-1])
 
 for x in range(part2):
-    result.append(s3[x])
-    result.append(s4[x])
+    result.append(s3[random.randint(0,len(s3)-1])
+    result.append(s4[random.randint(0,len(s4)-1])
 
 
 # Shuffle the result
